@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "node init && next dev --turbopack",
     "dev:safe": "next dev",
-    "build": "next build --turbopack",
+    "build": "node init && next build --turbopack",
     "build:safe": "next build",
-    "start": "next start",
+    "start": "node init && next start",
     "lint": "eslint",
     "test:db": "node test-connection.js"
   },
